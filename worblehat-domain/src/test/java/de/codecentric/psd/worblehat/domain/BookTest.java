@@ -24,7 +24,7 @@ public class BookTest {
     private Book demoBook;
 
     private Book createDemoBook() {
-        return new Book(TITLE, AUTHOR, EDITION, ISBN, YEAR_OF_PUBLICATION);
+        return new Book(TITLE, AUTHOR, EDITION, ISBN, YEAR_OF_PUBLICATION, DESCRIPTION);
     }
 
     @Before
