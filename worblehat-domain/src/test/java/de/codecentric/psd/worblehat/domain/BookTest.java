@@ -39,15 +39,15 @@ public class BookTest {
 
     @Test
     public void testBookHasDescription() throws Exception {
-        String title = demoBook.getTitle();
-        assertThat(title, is(TITLE));
+        String title = demoBook.getDescription();
+        assertThat(title, is(DESCRIPTION));
     }
 
     @Test
     public void shouldTakeDescription() throws Exception {
-        String expectedTitle = "A new Title";
-        demoBook.setTitle(expectedTitle);
-        String actualTitle = demoBook.getTitle();
-        assertThat(actualTitle, is(expectedTitle));
+        String expectedDescription = "A new Description";
+        demoBook.setDescription(expectedDescription);
+        String actualDescription = demoBook.getDescription();
+        assertThat(actualDescription, is(expectedDescription));
     }
 }
