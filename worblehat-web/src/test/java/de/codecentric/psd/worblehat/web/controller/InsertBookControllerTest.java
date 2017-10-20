@@ -30,7 +30,7 @@ public class InsertBookControllerTest {
 
     private BindingResult bindingResult;
 
-    private static final Book TEST_BOOK = new Book("title", "author", "edition", "isbn", 2016, "This is a description");
+    private static final Book TEST_BOOK = new Book("title", "author", "edition", "isbn", 2016, null);
 
     @Before
     public void setUp() throws Exception {
